@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body {
+  background-color: #e8e8e8;
+  font-family: 'Fjalla One', sans-serif;
+  color: black;
+  font-size: 40px;
+  padding: 40px;
+  margin: 50px,
+  line-height: 100px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-gray {
+    width: 700px;
+  }
+}
+
+.card-gray {
+  border: 50px;
+  box-shadow: 10px 10px 10px white;
+}
+
+h1 {
+  color: 495464;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  line-height: 100px;
+}
+
+h2 {
+  color: 495464;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  line-height: 100px;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  line-height: 40px;
+}
+
+#home-page-first-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.social-links {
+  box-shadow: 20px 20px 20px white;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 30px;
+}
+
+a:hover {
+  color: gray;
+}
+
+
