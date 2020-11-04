@@ -18,7 +18,14 @@ body {
 
 .card-gray {
   border: 50px;
-  box-shadow: 10px 10px 10px white;
+  box-shadow: 10px 10px 10px gray;
+  background-color: white;
+}
+
+.card-white {
+  border: 50px;
+  box-shadow: 10px 10px 10px gray;
+  background-color: white;
 }
 
 h1 {
@@ -51,12 +58,13 @@ p {
 }
 
 .social-links {
-  box-shadow: 20px 20px 20px white;
+  box-shadow: 20px 20px 20px gray;
   text-align: center;
+  background-color: white;
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: underline;
   text-align: center;
   font-size: 30px;
